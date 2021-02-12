@@ -9,11 +9,11 @@ html {
     background-color: #232323;
 }
 
-/*centratura body non serve
+/*centratura body non serve*/
 body {
     margin: auto;
 }
-*/
+
 
 /*struttura contenitore principale*/
 .container {
@@ -24,6 +24,17 @@ body {
     padding: 14px 65px 2px 65px;
 }
 
+
+header img {
+    height: 20px;
+
+}
+
+header div .navigation {
+    margin-bottom: 1px solid;
+
+}
+
 header {
     background-color: #ef1beb;
     margin-bottom: 12px;
@@ -31,7 +42,8 @@ header {
 }
 
 .first {
-    background-color: #d7e461;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
     margin-bottom: 12px;    
     height: 200px;
     }
