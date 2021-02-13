@@ -73,13 +73,15 @@ main {
     height : 35px;
 }
  
-.contenuto h6{
+.contenuto h2 , .contenuto h6{
+    color:black;
     line-height:5px;
 } 
 
 
 /*float*/
 .left, .center, .right {
+    color:#a1a1a1;
     width: 95px;
     float: left;
     height: 210px;
@@ -129,6 +131,7 @@ footer {
 }
 
 .descr{
+    font-size: 9px;
     position: absolute;
     bottom: 0;
     left:50%;
