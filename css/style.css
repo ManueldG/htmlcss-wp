@@ -9,11 +9,14 @@ html {
     background-color: #232323;
 }
 
-/*centratura body non serve*/
+
 body {
     margin: auto;
+    font-family: sans-serif;
 }
-
+.image{ 
+    border-radius: 10px;
+ }
 
 /*struttura contenitore principale*/
 .container {
@@ -22,6 +25,7 @@ body {
     width: 610px;
     margin: 0 auto;
     padding: 14px 65px 2px 65px;
+    
 }
 
 
@@ -43,6 +47,7 @@ header {
 
 .first {
     background-image: url("../img/banner.jpg");
+    background-position: center;
     background-size: cover;
     margin-bottom: 12px;    
     height: 200px;
@@ -62,10 +67,16 @@ main {
 }
 
 .contenuto {
+    font-size:10px; 
     background-color: #acc9ea;
     margin-bottom: 10px ;
     height : 35px;
 }
+ 
+.contenuto h6{
+    line-height:5px;
+} 
+
 
 /*float*/
 .left, .center, .right {
@@ -73,6 +84,31 @@ main {
     float: left;
     height: 210px;
 } 
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.left img, .right img {
+    width: 95px;
+    height: 82px;
+    
+}
+.image {
+    overflow: hidden;
+}
+
+.center .image{
+    width: 64vh;
+    height: 6vw;
+       
+}
+.center .image img{
+    width: 266px;
+    height: 111px;
+    overflow: hidden;    
+}
+
 
 /*sovrascrivo .center*/
 .center {
@@ -89,4 +125,12 @@ main {
 footer {
     background-color: #a500ff;
     height:35px;
+    position: relative;
+}
+
+.descr{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%)
 }
