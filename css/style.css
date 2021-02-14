@@ -5,14 +5,12 @@
     box-sizing:border-box;
     }
 
-/*sfondo grigio*/
-html {
-    background-color: #232323;
-}
+
+
 
 
 body {
-    margin: auto;
+    background-color: #232323;/*sfondo grigio*/
     font-family: 'Roboto', sans-serif;
 }
 .image{ 
@@ -21,29 +19,26 @@ body {
 
 /*struttura contenitore principale*/
 .container {
+
     background-color: rgb(255, 255, 255);
-    height: 600px;
-    width: 610px;
+    height: 100vh;
+    width: 44.3vw;
     margin: 0 auto;
-    padding: 0px 65px 2px 65px;
-    
+    padding: 0px 4.7vw 0.32vh 4.7vw;
 }
 
-
 header img {
-
-    height: 30px;
-
+    height: 4.8vh;
 }
 
 .navigation {
-    line-height: 19px;    
+    line-height: 3vh;    
 }
 
 .navigation a {
-    margin-bottom: 1px solid;
+    margin-bottom: 0.16vh solid;
     text-decoration: none;
-    font-size: 7px;
+    font-size: 1.12vh;
     color:#939393;
 }
 
@@ -62,29 +57,30 @@ header {
     background-image: url("../img/banner.jpg");
     background-position: center;
     background-size: cover;
-    margin-bottom: 12px;    
-    height: 200px;
-    }
+    margin-bottom: 1.9vh;    
+    height: 32vh;
+}
+
 
 .first .text {
-    line-height: 15px;
-    font-size: 12px;
+    line-height: 2.4vh;
+    font-size: 1.9vh;
     width:50%;
     color: white;
     position: absolute;
-    bottom: 25px;
-    left: 15px;
-    }
+    bottom: 4vh;
+    left: 1.1vw;
+}
 
 .first .text h6{
-    font-size: 7px;
+    font-size:  1.12vh;
     font-weight: 100;
-    }
+}
 
 
 main {
     /*background-color: #654aff; colore box main*/
-    margin-bottom: .8%;
+    margin-bottom: 7vh;
 }
 
 /*CLEARFIX*/
@@ -98,24 +94,24 @@ main {
 .contenuto {
     font-size:10px; 
     /*background-color: #acc9ea;*/
-    margin-bottom: 10px ;
-    height : 35px;
+    margin-bottom: 1.6vh ;
+    height : 5.6vh;
     color:lightgray;
 }
  
 .contenuto h2 {
     color:black;
-    line-height:15px;
+    line-height:2.4vh;
 } 
 
 
 /*float*/
 .left, .center, .right {
     color:#a1a1a1; /*colore colonne*/
-    width: 95px;
+    height: 33.54vh;
+    width: 6.9vw;
     float: left;
-    height: 210px;
-    font-size: 7px;
+    font-size: 1.12vh;
 } 
 
 .overlay {
@@ -127,33 +123,39 @@ main {
 }
 
 .left img, .right img {
-    width: 95px;
-    height: 82px;
-    
+    height: 12.62vh;
+    width:  9.44vw;
+    position: relative;
+    left: -1.025vw;
 }
+
+.left img {
+    top:0vh;
+}
+
 .image {
     position: relative;
     overflow: hidden;
 }
 
 .center .image{
-    width: 264px;
-    height: 83px;
-
-       
+    height: 13.26vh;
+    width: 19.3vw;
 }
+
 .center .image img{
-    width: 266px;
-    height: 111px;
+    position: absolute;
+    height: 25.56vh;
+    width: 19vw;
     overflow: hidden;  
-    margin-top:-25px;  
+    top:-5.6vh; /*offset*/ 
 }
 
 
 /*sovrascrivo .center*/
 .center {
-    margin:0 10px;
-    width: 265px;
+    margin:0 1.8vh;
+    width: 19.4vw;
 }
 
 /*sovrascrivo .right*/
@@ -164,12 +166,12 @@ main {
 /* footer*/
 footer {
     /*background-color: #a500ff;*/
-    height:35px;
+    height:5.6vh;
     position: relative;
 }
 
 .descr{
-    font-size: 9px;
+    font-size: 1.4vh;
     position: absolute;
     bottom: 0;
     left:50%;
