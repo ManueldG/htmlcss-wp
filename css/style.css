@@ -99,9 +99,10 @@ main {
     /*background-color: #acc9ea;*/
     margin-bottom: 10px ;
     height : 35px;
+    color:lightgray;
 }
  
-.contenuto h2 , .contenuto h6{
+.contenuto h2 {
     color:black;
     line-height:15px;
 } 
@@ -137,12 +138,14 @@ main {
 .center .image{
     width: 264px;
     height: 83px;
+
        
 }
 .center .image img{
     width: 266px;
     height: 111px;
-    overflow: hidden;    
+    overflow: hidden;  
+    margin-top:-25px;  
 }
 
 
