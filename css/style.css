@@ -2,8 +2,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing:border-box;
+    }
+
 /*sfondo grigio*/
 html {
     background-color: #232323;
@@ -24,23 +25,34 @@ body {
     height: 600px;
     width: 610px;
     margin: 0 auto;
-    padding: 14px 65px 2px 65px;
+    padding: 0px 65px 2px 65px;
     
 }
 
 
 header img {
-    height: 20px;
+
+    height: 30px;
 
 }
 
-header div .navigation {
-    margin-bottom: 1px solid;
+.navigation {
+    line-height: 19px;    
+}
 
+.navigation a {
+    margin-bottom: 1px solid;
+    text-decoration: none;
+    font-size: 7px;
+    color:#939393;
+}
+
+.navigation a:hover {
+    color:black;
 }
 
 header {
-    background-color: #ef1beb;
+    /*background-color: #ef1beb; colore box header*/
     margin-bottom: 12px;
     height : 50px;
 }
@@ -53,14 +65,30 @@ header {
     height: 200px;
     }
 
+.first .text {
+    line-height: 15px;
+    font-size: 12px;
+    width:50%;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    }
+
+.first .text h6{
+    font-size: 7px;
+    font-weight: 100;
+    }
+
+
 main {
-    background-color: #654aff;
+    /*background-color: #654aff; colore box main*/
     margin-bottom: .8%;
 }
 
 /*CLEARFIX*/
 .clearfix::after { 
-    background-color: #654aff;
+    /*background-color: #654aff;*/
     content: '';
     display: table;
     clear: both;    
@@ -68,27 +96,32 @@ main {
 
 .contenuto {
     font-size:10px; 
-    background-color: #acc9ea;
+    /*background-color: #acc9ea;*/
     margin-bottom: 10px ;
     height : 35px;
 }
  
 .contenuto h2 , .contenuto h6{
     color:black;
-    line-height:5px;
+    line-height:15px;
 } 
 
 
 /*float*/
 .left, .center, .right {
-    color:#a1a1a1;
+    color:#a1a1a1; /*colore colonne*/
     width: 95px;
     float: left;
     height: 210px;
+    font-size: 7px;
 } 
 
 .overlay {
-    background: rgba(0, 0, 0, 0.5);
+	background: rgba(131, 131, 131, 0.301);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
 }
 
 .left img, .right img {
@@ -97,12 +130,13 @@ main {
     
 }
 .image {
+    position: relative;
     overflow: hidden;
 }
 
 .center .image{
-    width: 64vh;
-    height: 6vw;
+    width: 264px;
+    height: 83px;
        
 }
 .center .image img{
@@ -125,7 +159,7 @@ main {
 
 /* footer*/
 footer {
-    background-color: #a500ff;
+    /*background-color: #a500ff;*/
     height:35px;
     position: relative;
 }
@@ -137,3 +171,8 @@ footer {
     left:50%;
     transform: translateX(-50%)
 }
+
+footer .descr span{
+    color: red;    
+}
+    
