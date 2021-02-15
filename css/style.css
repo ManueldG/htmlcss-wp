@@ -40,6 +40,7 @@ header img {
 .navigation a:hover {
     color:black;
     cursor: url(../img/cursor.cur) 16 16,auto;
+    text-shadow: -1px 0 #bbb, 0 1px #bbb, 1px 0 #bbb, 0 -1px #bbb;
 }
 
 header {
