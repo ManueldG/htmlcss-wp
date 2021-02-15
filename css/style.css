@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .image{ 
-    border-radius: 10px;
+    border-radius: 5px;
  }
 
 /*struttura contenitore principale*/
@@ -98,6 +98,10 @@ main {
     line-height:2.4vh;
 } 
 
+.contenuto h3 {
+    color:black;
+    line-height:2.4vh;
+} 
 
 /*float*/
 .left, .center, .right {
